@@ -1,0 +1,150 @@
+body {
+	background-color:#caf5f7;
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+	color:#218290
+}
+h2 {
+	text-align:center;
+	color:#218290
+}
+.principal{
+	margin-top:80px;
+}
+/*estilos fomulario*/
+form {
+	border:3px, solid, #218290;
+	border-radius:20px;
+	padding:20px;
+	text-align:center;
+	width: 100%;
+    max-width: 400px;
+}
+form input, .contenedor input, select {
+	font-size:20px;
+	background-color:#218290;
+	color:#caf5f7;
+	width: 85%;
+    padding: 12px;
+    margin-bottom: 15px;
+	box-sizing: border-box;
+	border:none;
+	border-radius:10px;
+}
+form i{
+	color:#218290;
+}
+button i{
+	color:#caf5f7;
+}
+form button {
+	font-size:20px;
+	background-color:#218290;
+	color:#caf5f7;
+    padding: 12px;
+	box-sizing: border-box;
+	border:none;
+	border-radius:10px;
+}
+#consultar, #limpiar{
+	width:140px;
+}
+#form2{
+	display:none;
+}
+button{
+	cursor:pointer;
+}
+::placeholder {
+	color:#caf5f7;
+}
+.contenedor input {
+	width: 80%;
+}
+/*estilos cabecera menu logo*/
+.header {
+	width:100%;
+	position:absolute;
+	top:0px;
+	left:0px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-sizing: border-box;
+	background-color:#218290;
+}
+.header span{
+	margin-left:5px;
+}
+.nav-links a {
+	text-decoration: none;
+	padding: 24px;
+	color:#caf5f7;
+}
+.nav-links a:hover {
+	color:#218290;
+	background-color:#caf5f7;
+}
+.imglogo{
+	height:50px;
+	margin:5px;
+}
+/*estilos principal*/
+#con1 button{
+	font-size:20px;
+	background-color:#218290;
+	color:#caf5f7;
+    padding: 12px;
+	box-sizing: border-box;
+	border:none;
+	border-radius:10px;
+	width:180px;
+	height:80px;
+	margin-bottom:20px;
+	display: inline-flex;
+    align-items: center;      /* Centra verticalmente el icono */
+}
+.contenedor{
+	width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+	text-align:center;
+	border:3px, solid, #218290;
+	border-radius:20px;
+}
+#con2, #con3, #con4{
+	max-width: 600px;
+	display:none;
+}
+.volver, .buscar{
+	font-size:20px;
+	background-color:#218290;
+	color:#caf5f7;
+    padding: 12px;
+	box-sizing: border-box;
+	border:none;
+	border-radius:10px;
+	margin-bottom:20px;
+}
+.buscar {
+	margin-left:5px;
+}
+/* estilos iconos*/
+button span{
+	display:inline-block;
+}
+
+/*estilos tabla*/
+table, th, td {
+	border:3px, solid, #218290;
+	text-align:center;
+}
+table{
+	margin-top:10px;
+	margin-bottom:10px;
+	border-collapse: collapse;
+}
+th, td {
+  padding: 10px;
+}
